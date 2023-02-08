@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<title>Cтраница с плеером 2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Cache-control" content="public">
+	<meta name="description" content="Описание самого плеера и того как он должен работать">
+
+	<!-- Open Graph -->
+	<meta property="og:locale" content="ru_RU">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Cтраница с плеером 2">
+	<meta property="og:description" content="Описание самого плеера и того как он должен работать 2">
+	<meta property="og:site_name" content="Cтраница с плеером 2">
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400&display=swap" rel="stylesheet">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="style.css">
+	
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+	<link rel="manifest" href="images/favicons/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+	<main class="main"> 
+		<div class="main__inner">
+			<div class="container">
+				<div class="main__content player player--loading player--in-progress">
+					<h3 class="player__title">
+						<a class="player__title-link" href="https://lalalai.s3.us-west-2.amazonaws.com/media/split/a7564eb8-cbf2-40e2-9cb8-6061d8d055a7/no_vocals" target="_blank">https://lalalai.s3.us-west-2.amazonaws.com/media/split/a7564eb8-cbf2-40e2-9cb8-6061d8d055a7/no_vocals</a>
+					</h3>
+					<div class="player__body">
+						<div class="player__btn player__btn--play"></div>
+						<audio class="player__audio" controls>
+						   <source src="sound.mp3" type='audio/mpeg; codecs="mp3"'>
+						</audio>
+						<div class="player__progress">
+							<div class="player__progress-cursor">
+								<div class="player__progress-pointer"></div>
+							</div>
+						</div>
+
+						<div class="player__box">
+							<div class="player__time">
+								00:00
+							</div>
+							<div class="player__vol">
+								<div class="player__vol-cursor">
+									<div class="player__vol-pointer"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="player__back" href="index.html">
+						<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M8 17L3 12M3 12L8 7M3 12H21" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+						<span class="player__back-txt">Back</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<script>
+		
+	</script>
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/responsive.css">
+</body>
+</html>

@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<title>Cтраница с плеером</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Cache-control" content="public">
+	<meta name="description" content="Описание самого плеера и того как он должен работать">
+
+	<!-- Open Graph -->
+	<meta property="og:locale" content="ru_RU">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Cтраница с плеером">
+	<meta property="og:description" content="Описание самого плеера и того как он должен работать">
+	<meta property="og:site_name" content="Cтраница с плеером">
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400&display=swap" rel="stylesheet">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="style.css">
+	
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+	<link rel="manifest" href="images/favicons/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+	<main class="main"> 
+		<div class="main__inner">
+			<div class="container">
+				<div class="main__content main__content--search">
+					<h1 class="main__title">
+						Insert the link
+					</h1>
+					<form class="main__form main__form--error" action="#">
+						<div class="main__wrapper">
+							<label class="main__label">
+								<input class="main__input" type="text" name="link" placeholder="https://">
+							</label>
+							<button class="main__btn">
+								<svg width="40" height="36" viewBox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M39.7197 18.6943C40.0934 18.3069 40.0934 17.6931 39.7197 17.3057L23.7197 0.721679L23.0253 0.00201416L21.586 1.39066L22.2803 2.11032L36.6457 17H1H0V19H1H36.6457L22.2803 33.8897L21.586 34.6093L23.0253 35.998L23.7197 35.2783L39.7197 18.6943Z" fill="#1B191C"/>
+								</svg>
+							</button>	
+						</div>
+						<div class="main__form-error">
+							Error message here
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/responsive.css">
+</body>
+</html>

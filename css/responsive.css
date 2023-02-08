@@ -1,0 +1,44 @@
+@media screen and (max-width:700px){
+	.main__title {
+	    font-size: 35px;
+	    line-height: 42px;
+	    margin: 0px 0px 10px 0px;
+	}
+
+	.main__input {
+	    font-size: 20px;
+	    padding: 21px 16px;
+	}
+
+	.main__btn svg {
+		width: 25px;
+	}
+
+	.main__btn {
+	    width: 76px;
+	    min-width: 76px;
+	    height: 76px;
+	}
+
+	.player__title {
+	    font-size: 20px;
+	    line-height: 28px;
+	    margin: 0px 0px 15px 0px;
+	}
+
+	.player__back {
+	    font-size: 20px;
+	    line-height: 28px;
+	}
+
+	.player__back svg {
+	    width: 17px;
+	    height: 17px;
+	}
+}
+
+@media screen and (max-width:400px){
+	.player__vol {
+		width: 180px;
+	}
+}
